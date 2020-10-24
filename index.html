@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+	<title>ゆい美容室</title>
+	<meta name="keywords" content="北見市,美容室,サロン,ヘアカラー">
+	<meta name="description" content="北見市のヘアサロン「ゆい美容室」">
+	<!--[if lt IE 9]>
+	<script src="js/html5.js"></script>
+	<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" href="./css/style.css" type="text/css" media="screen">
+	<script src="./js/slidebars.min.js"></script>
+	<script src="./js/jquery1.7.2.min.js"></script>
+	<script src="./js/script.js"></script>
+	<!-- Toggle Menu setting -->
+	<script type="text/javascript">
+	$(function() {
+		$('.Toggle').click(function() {
+			$(this).toggleClass('active');
+			if ($(this).hasClass('active')) {
+				$('.NavMenu').addClass('active');
+			} else {
+				$('.NavMenu').removeClass('active');
+			}
+		});
+	});
+	</script>
+	<!-- Floating Menu setting -->
+	<script>
+	$(function () {
+		"use strict";
+		var flag = "view";
+		$(window).on("scroll", function () {
+			if ($(this).scrollTop() > 100) {
+				if (flag === "view") {
+					$(".fix-header").stop().css({opacity: '1.0'}).animate({
+						top: 0
+					}, 500);
+					flag = "hide";
+				}
+			} else {
+				if (flag === "hide") {
+					$(".fix-header").stop().animate({top:"-72px",opacity: 0}, 500);
+					flag = "view";
+				}
+			}
+		});
+	});
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178898487-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-178898487-1');
+	</script>
+</head>
+<body>
+	<header id="header">
+		<!-- PC Menu start -->
+		<div class="header_outer">
+			<div class="header_content pcview">
+				<div class="logo">
+					<h1><a href="./index.html"><img src="./image/logo.png" alt=""><span>ゆい美容室</span></a></h1>
+				</div>
+				<div class="info pcview">
+					<ul>
+						<li><a href="./index.html">TOP</a></li>
+						<li><a href="./about.html">About</a></li>
+						<li><a href="./style.html">Style</a></li>
+						<li><a href="./menu.html">Menu</a></li>
+						<li><a href="./info.html">Info</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- PC Menu end -->
+		<!-- SP Menu start -->
+		<div class="logo spview">
+			<h1><a href="./index.html"><img src="./image/logo.png" alt=""><span>ゆい美容室</span></a></h1>
+		</div>
+		<nav id="mainNav" class="NavMenu spview">
+			<div class="inner">
+				<ul>
+					<li><a href="./index.html">&#187; TOP</a></li>
+					<li><a href="./about.html">&#187; About</a></li>
+					<li><a href="./style.html">&#187; Style</a></li>
+					<li><a href="./menu.html">&#187; Menu</a></li>
+					<li><a href="./info.html">&#187; Info</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="Toggle"><span></span><span></span><span></span><br><span class="last spview">メニュー</span></div>
+		<!-- SP Menu end -->
+		<!-- Floating Menu start -->
+		<div class="header_outer fix-header">
+			<div class="header_content pcview">
+				<div class="logo">
+					<h1><a href="./index.html"><img src="./image/logo.png" alt=""></a><span>ゆい美容室</span></h1>
+				</div>
+				<div class="info pcview">
+					<ul>
+						<li><a href="./index.html">TOP</a></li>
+						<li><a href="./about.html">About</a></li>
+						<li><a href="./style.html">Style</a></li>
+						<li><a href="./menu.html">Menu</a></li>
+						<li><a href="./info.html">Info</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- Floating Menu end -->
+	</header>
+
+	<div id="wrapper">
+		<!-- catchcopy start -->
+		<section>
+			<div class="content message_outer">
+				<img class="pcview" src="./image/topmessage_back.png" alt="">
+				<div class="message_txt">
+					<img src="./image/logo_l.png" alt="">
+					<h2><img src="./image/catch.png" alt="髪と、あなたに、癒やしの空間を。"></h2>
+					<p>心を癒やして、表情も、振る舞いも明るく。<br>
+						『元気になったね』『どこに行ってきたの？』そんなふうにお友達から聞かれるような、癒やしの空間をご提供します。</p>
+					<p class="linkbutton"><a class="right" href="./about.html">ゆい美容室について</a></p>
+				</div>
+			</div>
+		</section>
+		<!-- catchcopy end -->
+		<!-- style start -->
+		<section class="blue">
+			<div class="topic_style">
+				<h2>Style</h2>
+			</div>
+			<div class="content">
+				<div class="col2">
+					<div class="box">
+						<p><img src="./image/style_image1.png" alt=""></p>
+					</div>
+					<div class="box">
+						<h3>CUT</h3>
+						<p>髪質やクセによって、最適な切り方はたくさんあります。ヒアリングをしながら、お客様に最適なヘアスタイルをご提案します。</p>
+					</div>
+				</div>
+				<div class="col2">
+					<div class="box">
+						<h3>デザインカラー</h3>
+						<p>ハイライトやローライトを組み合わせて、立体感を出すデザインカラー。一人ひとりの骨格に合わせて、デザインを作り上げます。</p>
+					</div>
+					<div class="box">
+						<p><img src="./image/style_image2.png" alt=""></p>
+					</div>
+				</div>
+				<div class="col2">
+					<div class="box">
+						<p><img src="./image/style_image3.png" alt=""></p>
+					</div>
+					<div class="box">
+						<h3>ハイライト(白髪ぼかし)</h3>
+						<p>綺麗なホワイトヘアにローライトをプラス。<br>
+						立体感、動き、ボリューム感、おしゃれ感を出せます</p>
+					</div>
+				</div>
+				<p class="linkbutton"><a class="left" href="./style.html">Styleをもっと見る</a></p>
+			</div>
+		</section>
+		<!-- style end -->
+		<!-- menu start -->
+		<section>
+			<div class="topic_menu">
+				<h2>Menu</h2>
+			</div>
+			<div class="content center">
+				<p>カット　　　・・・・・・・・　　　￥0000<br>
+				カット　　　・・・・・・・・　　　￥0000<br>
+				カット　　　・・・・・・・・　　　￥0000<br>
+				カット　　　・・・・・・・・　　　￥0000</p>
+				<p>
+				カット　　　・・・・・・・・　　　￥0000<br>
+				カット　　　・・・・・・・・　　　￥0000<br>
+				カット　　　・・・・・・・・　　　￥0000<br>
+				カット　　　・・・・・・・・　　　￥0000</p>
+				<p class="linkbutton"><a class="right" href="./menu.html">Menuをもっと見る</a></p>
+			</div>
+		</section>
+		<!-- menu end -->
+		<!-- fotter start -->
+		<footer id="footer">
+			<section>
+				<div class="col2">
+					<div class="box">
+						<p>ゆい美容室<br><img src="./image/logo_l.png" alt=""></p>
+						<p>〒090-0803 北海道北見市朝日町22-1</p>
+						<p>営業時間<br>
+							10：00～18：00</p>
+						<p>定休日<br>
+							火曜日（不定休）</p>
+						<p>TEL.0157-57-6794</p>
+						<p class="pcview"><span class="sns"><a href="https://www.instagram.com/yuibiyoushitsu20190111/?hl=ja" target="_blank"><img src="./image/insta_icon.png" alt="インスタグラム"></a></span><span class="sns"><a href="https://www.facebook.com/yuit.shichida" target="_blank"><img src="./image/facebook_icon.png" alt="フェイスブック"></a></span></p>
+					</div>
+					<div class="box">
+						<iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.1354832680804!2d143.90398671545924!3d43.81154907911612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f6d5726de440063%3A0x91461fdcabdf79b1!2z5pel5pys44CB44CSMDkwLTA4MDMg5YyX5rW36YGT5YyX6KaL5biC5pyd5pel55S677yS77yS!5e0!3m2!1sja!2skh!4v1600920455779!5m2!1sja!2skh" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</div>
+				</div>
+				<div class="aligncenter">
+					<p><a href="./index.html">トップ</a> / <a href="./menu.html">メニュー</a> / <a href="./style.html">スタイリング</a> / <a href="./info.html">店舗情報</a></p>
+					<address>Copyright&copy; ゆい美容室</address>
+				</div>
+				<div class="spview">
+					<p class="linkbutton"><a class="right" href="https://www.instagram.com/yuibiyoushitsu20190111/?hl=ja" target="_blank">Instagram <img class="icon" src="./image/insta_icon.png" alt="インスタグラム"></a></p>
+					<p class="linkbutton"><a class="left" href="https://www.facebook.com/yuit.shichida" target="_blank">Facebook <img class="icon" src="./image/facebook_icon.png" alt="フェイスブック"></a></p>
+				</div>
+			</section>
+			<p id="fixedBnr" class="spview"><a href="tel:0157576794"><img src="./image/tel_button.png" alt="電話で予約する"></a></p>
+		</footer>
+		<!-- fotter end -->
+	</div>
+</body>
+</html>
