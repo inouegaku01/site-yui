@@ -423,7 +423,7 @@ a img:hover {
 
 /* About page */
 .topic_about h2 { color: #fff; font-size: 60px; }
-p span.name { margin-left: 2em; }
+p span.name { text-align: right;}
 @media screen and (min-width:768px) {
 	.topic_about {
 		height: 400px;
@@ -445,7 +445,7 @@ p span.name { margin-left: 2em; }
 }
 
 /* Menu page */
-section .content.pricetable { max-width: 344px; }
+section .content.pricetable { max-width: 450px; }
 .single_topic_menu1 h2 { color: #333333; font-size: 60px; }
 .single_topic_menu2 h2 { color: #333333; font-size: 40px; }
 h3.border { text-align: left; border-bottom: 1px solid #707070; padding-bottom: 5px; margin-bottom: 5px;}
