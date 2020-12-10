@@ -409,7 +409,7 @@ a img:hover {
 		padding-top: 40px;
 	}
 	.message_outer .message_txt { width: 100%; }
-	.topic_style { background-image: url('../image/new-style.png'); }
+	.topic_style { background-image: url('../image/new-style.png'); } 
 	.topic_style,
 	.topic_menu {
 		background-size: cover;
