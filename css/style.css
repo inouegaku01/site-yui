@@ -409,14 +409,14 @@ a img:hover {
 		padding-top: 40px;
 	}
 	.message_outer .message_txt { width: 100%; }
-	.topic_style { background-image: url('../image/topic_style_back_sp.jpg'); }
+	.topic_style { background-image: url('../image/new-style.png'); }
 	.topic_style,
 	.topic_menu {
 		background-size: cover;
 		background-repeat: no-repeat;
 		height: 200px;
 	}
-	.topic_menu { background-image: url('../image/topic_menu_back_sp.jpg'); }
+	.topic_menu { background-image: url('../image/new-menu.png'); }
 	.topic_style h2,
 	.topic_menu h2 { line-height: 200px; background-color: rgba(0,0,0,0.15); padding: 0; }
 }
