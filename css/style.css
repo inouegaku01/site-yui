@@ -56,7 +56,13 @@ a:active, a:focus {outline:0;}
 .logo span {
 	font-size: 16px;
 	padding-left: 10px;
+	line-height: 40px;
 }
+
+.logo img{
+	display: none;
+}
+
 .info {float:right;padding-right:20px;text-align:right;}
 .info a {padding: 0 5px; color: #303030; font-weight: bold; }
 .info a img { max-height: 45px; vertical-align: middle; }
@@ -77,6 +83,9 @@ a:active, a:focus {outline:0;}
 	}
 	.info a:hover::after {
 		width: 100%;
+	}
+	.logo span {
+		line-height: 45px;
 	}
 }
 .info a:hover {opacity: 0.8;}
@@ -372,6 +381,8 @@ a img:hover {
 	section .content.message_outer {
 		padding: 0px;
 		height: 700px;
+		background-image: url('../image/top-img1.jpg');
+		max-width: none;
 	}
 	.message_outer .message_txt {
 		position: absolute;
@@ -382,9 +393,18 @@ a img:hover {
 		-ms-transform: translateX(-50%);
 		max-width: 344px;
 	}
+	.message_outer .message_txt .white-box {
+		background-color:rgba(255,255,255,0.7);
+		border-radius: 10px;
+		width: 100%;
+		height: auto;
+		padding:10px;
+		color:#333333;
+		/* margin: auto; */ 
+	}
 	.topic_style {
 		height: 394px;
-		background-image: url('../image/topic_style_back.jpg');
+		background-image: url('../image/new-style.png');
 		background-size: cover;
 		background-repeat: no-repeat;
 
@@ -396,19 +416,28 @@ a img:hover {
 	.topic_menu {
 		height: 400px;
 		background-size: cover;
-		background-image: url('../image/topic_menu_back.png');
+		background-image: url('../image/new-menu.png');
 		background-repeat: no-repeat;
 	}
 }
 @media screen and (max-width:767px) {
 	section .content.message_outer {
-		background: url('../image/topmessage_back.png');
+		background: url('../image/sp-top.jpg');
 		background-size: 100%;
 		background-position: top;
 		background-repeat: no-repeat;
 		padding-top: 40px;
 	}
 	.message_outer .message_txt { width: 100%; }
+	.message_outer .message_txt .white-box {
+		background-color:rgba(255,255,255,0.7);
+		border-radius: 10px;
+		width: 100%;
+		height: auto;
+		padding:10px;
+		color:#333333;
+		/* margin: auto; */ 
+	}
 	.topic_style { background-image: url('../image/new-style.png'); } 
 	.topic_style,
 	.topic_menu {
@@ -557,7 +586,7 @@ ul.style_list li { display: inline-block; }
 @media screen and (min-width:768px) {
 	.single_topic_style {
 		height: 400px;
-		background-image: url('../image/single_topic_style_back.png');
+		background-image: url('../image/new-style-pc.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -566,7 +595,7 @@ ul.style_list li { display: inline-block; }
 }
 @media screen and (max-width:767px) {
 	.single_topic_style {
-		background-image: url('../image/single_topic_style_back_sp.png');
+		background-image: url('../image/single_topic_style_back_sp2.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 		height: 200px;
