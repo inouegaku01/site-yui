@@ -392,6 +392,7 @@ a img:hover {
 		-webkit-transform: translateX(-50%);
 		-ms-transform: translateX(-50%);
 		max-width: 344px;
+		margin-top: 150px;
 	}
 	.message_outer .message_txt .white-box {
 		background-color:rgba(255,255,255,0.7);
@@ -400,6 +401,7 @@ a img:hover {
 		height: auto;
 		padding:10px;
 		color:#333333;
+		/* text-align: center; */
 		/* margin: auto; */ 
 	}
 	.topic_style {
@@ -427,8 +429,9 @@ a img:hover {
 		background-position: top;
 		background-repeat: no-repeat;
 		padding-top: 40px;
+		height: 500px;
 	}
-	.message_outer .message_txt { width: 100%; }
+	.message_outer .message_txt { width: 100%; margin-top: 100px;}
 	.message_outer .message_txt .white-box {
 		background-color:rgba(255,255,255,0.7);
 		border-radius: 10px;
@@ -436,6 +439,7 @@ a img:hover {
 		height: auto;
 		padding:10px;
 		color:#333333;
+		/* text-align: center; */
 		/* margin: auto; */ 
 	}
 	.topic_style { background-image: url('../image/new-style.png'); } 
