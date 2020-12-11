@@ -429,7 +429,7 @@ a img:hover {
 		background-position: top;
 		background-repeat: no-repeat;
 		padding-top: 40px;
-		height: 500px;
+		height: 500px !important;
 	}
 	.message_outer .message_txt { width: 100%; margin-top: 100px;}
 	.message_outer .message_txt .white-box {
