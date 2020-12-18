@@ -417,7 +417,7 @@ a img:hover {
 	.topic_style h2 { line-height: 394px; }
 	.topic_menu h2 { line-height: 400px; }
 	.topic_style h2,
-	.topic_menu h2 { color:#000; padding: 0; }
+	.topic_menu h2 { padding: 0; font-size: 60px;}
 	.topic_menu {
 		height: 400px;
 		background-size: cover;
@@ -453,7 +453,7 @@ a img:hover {
 		height: 200px;
 	}
 	.topic_menu { background-image: url('../image/new-menu.png'); }
-	.topic_style h2{ line-height: 200px; padding: 0; color:#000; }
+	.topic_style h2{ line-height: 200px; padding: 0;  }
 	.topic_menu h2 { line-height: 200px; padding: 0; }
 }
 
