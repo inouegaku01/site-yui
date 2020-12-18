@@ -395,7 +395,7 @@ a img:hover {
 		-webkit-transform: translateX(-50%);
 		-ms-transform: translateX(-50%);
 		max-width: 344px;
-		margin-top: 150px;
+		/* margin-top: 150px; */
 	}
 	.message_outer .message_txt .white-box {
 		background-color:rgba(255,255,255,0.7);
