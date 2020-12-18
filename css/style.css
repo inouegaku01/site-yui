@@ -321,7 +321,8 @@ a:active, a:focus {outline:0;}
 
 /* content_common */
 section.blue { /*background-color: #d1eef0;*/ }
-section .content { max-width: 768px; padding: 20px 10px; }
+section .content { max-width: 768px; padding: 20px 10px;
+}
 	section .content.center { margin: 0 auto; text-align: center; }
 #wrapper { overflow-x: hidden; }
 .left{ text-align: left; }
@@ -426,11 +427,11 @@ a img:hover {
 }
 @media screen and (max-width:767px) {
 	section .content.message_outer {
-		/* background: url('../image/sp-top.jpg'); */
+		background: url('../image/top-back-sp.jpg');
 		background-size: 100%;
 		background-position: top;
 		background-repeat: no-repeat;
-		padding-top: 40px;
+		padding: 40px 0;
 		/* height: 500px !important; */
 	}
 	.message_outer .message_txt { width: 100%;}
