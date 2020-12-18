@@ -383,8 +383,8 @@ a img:hover {
 @media screen and (min-width:768px) {
 	section .content.message_outer {
 		padding: 0px;
-		height: 700px;
-		background-image: url('../image/top-img1.jpg');
+		height: 500px;
+		background-image: url('../image/top-back.jpg');
 		max-width: none;
 	}
 	.message_outer .message_txt {
@@ -395,7 +395,7 @@ a img:hover {
 		-webkit-transform: translateX(-50%);
 		-ms-transform: translateX(-50%);
 		max-width: 344px;
-		margin-top: 150px;
+		/* margin-top: 150px; */
 	}
 	.message_outer .message_txt .white-box {
 		background-color:rgba(255,255,255,0.7);
