@@ -642,7 +642,7 @@ address {
 	span.sns img { margin: 0 5px; }
 }
 @media only screen and (max-width: 768px){
-	footer { padding: 20px 0 50px; }
+	footer { padding: 20px 0 80px; }
 	footer .col2 .box { display: block; width:95%; margin: 0 auto; }
 	.col2 .box span.sns img { margin: 0 5px; display: inline-block; }
 }
@@ -772,7 +772,7 @@ address {
 @media screen and (max-width:767px) {
 	#fixedBnr {
 		position:fixed;
-		bottom: 0;
+		bottom: 3%;
 		display: block;
 		margin-bottom: 0;
 		right: 3%;
